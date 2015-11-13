@@ -9,6 +9,6 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_home" tools:context=".Home">
 
-    <TextView android:text="Hello my group. How are you ?" android:layout_width="wrap_content"
+    <TextView android:text="Hello my group. How are you ? Fine" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>
