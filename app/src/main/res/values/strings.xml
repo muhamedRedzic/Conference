@@ -7,4 +7,5 @@
     <string name="title_activity_organizers">Organizers</string>
     <string name="title_activity_access_plan">Access Plan</string>
     <string name="title_activity_building_plan">Building Plan</string>
+    <string name="title_activity_feedbacks">Feedbacks</string>
 </resources>

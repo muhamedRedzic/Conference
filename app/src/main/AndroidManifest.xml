@@ -69,6 +69,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.hevs.aipu.conference.Home" />
         </activity>
+        <activity
+            android:name=".Feedbacks"
+            android:label="@string/title_activity_feedbacks"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.hevs.aipu.conference.Home" />
+        </activity>
     </application>
 
 </manifest>
