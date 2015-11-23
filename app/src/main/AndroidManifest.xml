@@ -18,6 +18,57 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".News"
+            android:label="@string/title_activity_news"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.hevs.aipu.conference.Home" />
+        </activity>
+        <activity
+            android:name=".Conferences"
+            android:label="@string/title_activity_conferences"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.hevs.aipu.conference.Home" />
+        </activity>
+        <activity
+            android:name=".Partners"
+            android:label="@string/title_activity_partners"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.hevs.aipu.conference.Home" />
+        </activity>
+        <activity
+            android:name=".Organizers"
+            android:label="@string/title_activity_organizers"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.hevs.aipu.conference.Home" />
+        </activity>
+        <activity
+            android:name=".AccessPlan"
+            android:label="@string/title_activity_access_plan"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.hevs.aipu.conference.Home" />
+        </activity>
+        <activity
+            android:name=".BuildingPlan"
+            android:label="@string/title_activity_building_plan"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.hevs.aipu.conference.Home" />
+        </activity>
     </application>
 
 </manifest>
