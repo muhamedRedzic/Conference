@@ -78,6 +78,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ch.hevs.aipu.conference.Home" />
         </activity>
+        <activity
+            android:name=".conference_details"
+            android:label="@string/title_activity_conference_details"
+            android:parentActivityName=".Conferences"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.hevs.aipu.conference.Conferences" />
+        </activity>
     </application>
 
 </manifest>

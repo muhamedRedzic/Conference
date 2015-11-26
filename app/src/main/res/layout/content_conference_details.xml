@@ -7,7 +7,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_conferences"
-    tools:context="ch.hevs.aipu.conference.Conferences">
+    tools:showIn="@layout/activity_conference_details"
+    tools:context="ch.hevs.aipu.conference.conference_details">
 
 </RelativeLayout>
