@@ -8,8 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 public class Conferences extends AppCompatActivity {
-
-    @Override
+ @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conferences);
@@ -26,5 +25,7 @@ public class Conferences extends AppCompatActivity {
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
+
 
 }
