@@ -9,6 +9,77 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_home" tools:context=".Home">
 
-    <TextView android:text="Hello my group. How are you ? Fine..." android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="50dp"
+        android:paddingTop="20dp"
+        android:id="@+id/frameLayout">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_gravity="center_horizontal|left|top"
+            android:text="News" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:layout_gravity="center_horizontal|top"
+            android:text="conf" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:layout_gravity="left|center_vertical"
+            android:text="Partners" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:layout_gravity="center"
+            android:text="Organ sale" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:layout_gravity="left|bottom"
+            android:text="Plan" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText7"
+            android:layout_gravity="center|bottom"
+            android:text="cul" />
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top">
+
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageButton"
+                android:layout_alignParentTop="true"
+                android:src="C:\Users\chris\Downloads\name"
+                android:background="#624747" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
 </RelativeLayout>

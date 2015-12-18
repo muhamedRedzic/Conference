@@ -1,1 +1,1 @@
-include ':app', ':backendConfAIPU'
+include ':backendConfAIPU', ':app'
